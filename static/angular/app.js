@@ -44,7 +44,7 @@ app.controller('ProjectCtl', ['$scope', '$routeParams', function($scope, $routeP
 	}];
 
 	$scope.project = $routeParams.project;
-	$scope.all = ['alarm', 'desk', 'flask_tutorial', 'gameoflife', 'gorunner', 'jobs', 'taskpy'];
+	$scope.all = ['alarm', 'desk', 'flask_tutorial', 'gameoflife', 'gorunner', 'jobs', 'taskpy', 'grocery'];
 }]);
 
 var logos = [{
