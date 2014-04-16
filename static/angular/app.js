@@ -20,7 +20,7 @@ app.run(function($rootScope, $location, $anchorScroll, $routeParams, $window) {
 	});
 
 	$rootScope.$on('$viewContentLoaded', function(event) {
-		$window._gaq.push(['_trackPageview', $location.path()]);
+		$window.ga('send', 'pageview');
 	});
 });
 
