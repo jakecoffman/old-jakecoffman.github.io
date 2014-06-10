@@ -1,3 +1,12 @@
 <ul class="nav nav-tabs">
-	<li ng-class="{active: project == p}" ng-repeat="p in all"><a href="/#projects/{{p}}">{{p}}</a></li>
+	<li>
+		<a href="/">
+			<i class="fa fa-home"></i>
+		</a>
+	</li>
+	<li ng-class="{active: project == p}" ng-repeat="p in all">
+		<a href="/#projects/{{p}}">
+			{{p}}
+		</a>
+	</li>
 </ul>

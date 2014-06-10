@@ -3,10 +3,14 @@ var app = angular.module('portfolio', ['ngRoute']);
 app.config(['$routeProvider', function($routeProvider){
 	$routeProvider.when("/", {
 		templateUrl: "/templates/home.html"
-	});
-	$routeProvider.when("/projects/:project", {
+	}).when("/projects/:project", {
 		templateUrl: function(params) { return "/templates/projects/" + params.project + ".html" },
 		controller: 'ProjectCtl'
+	}).when("/blog", {
+		templateUrl: "/templates/blog.html"
+	}).when("/blog/:page", {
+		templateUrl: function(params) { return "/templates/blog/" + params.page + ".html" },
+		controller: 'BlogCtl'
 	}).otherwise({
 		redirectTo: "/"
 	})
@@ -26,6 +30,10 @@ app.run(function($rootScope, $location, $anchorScroll, $routeParams, $window) {
 
 app.controller('MainCtl', ['$scope', '$http', function($scope, $http){
 	$scope.logos = logos;
+}]);
+
+app.controller('BlogCtl', ['$scope', '$routeParams', function($scope, $routeParams) {
+	$scope.page = $routeParams.page;
 }]);
 
 app.controller('ProjectCtl', ['$scope', '$routeParams', function($scope, $routeParams){
