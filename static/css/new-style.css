@@ -17,6 +17,8 @@ body {
     position: relative;
     background: none;
     color: white;
+    text-align: center;
+    font-weight: bold;
 }
 
 .jumbotron:after {
