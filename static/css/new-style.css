@@ -37,7 +37,7 @@ body {
     z-index: -1;
 }
 
-#projects {
+#interests {
     color: white;
 
     background: url('../img/code.jpg') no-repeat center center;
@@ -46,6 +46,11 @@ body {
     -o-background-size: cover;
     background-size: cover;
     z-index: 1;
+}
+
+#projects {
+    background: #0f0a33;
+    color: white;
 }
 
 #contact {
