@@ -1,8 +1,0 @@
----
-layout: blog
-title: First post
----
-
-TODO
-
-{% gist jakecoffman/b85098eda7b79c8af512 %}

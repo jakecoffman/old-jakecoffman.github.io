@@ -1,4 +1,6 @@
 name: jake coffman
 url: http://www.jakecoffman.com/
 permalink: pretty
-markdown: rdiscount
+markdown: kramdown
+kramdown:
+  input: GFM
