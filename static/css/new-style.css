@@ -2,6 +2,10 @@ html, body {
     height: 100%;
 }
 
+#hero a {
+    color: white;
+}
+
 h2 {
     font-size: 3em;
     padding-bottom: 30px;
