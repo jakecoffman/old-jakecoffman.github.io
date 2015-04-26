@@ -10,7 +10,7 @@
     <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/bootswatch/3.3.1/yeti/bootstrap.min.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="/static/css/new-style.css" rel="stylesheet">
+    <link href="/static/css/index.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -22,19 +22,27 @@
 <div id="wrap">
     <div class="jumbotron" id="hero">
         <!--<div class="pad"></div>-->
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <h1>Jake Coffman</h1>
 
                 <p>Software Developer</p>
                 <ul class="list-inline" style="font-size: 0.7em">
-                    <li><a href="http://en.wikipedia.org/wiki/Application_software">Applications</a></li>
+                    <li class="badge badge-default">
+                        <a href="http://en.wikipedia.org/wiki/Application_software">Applications</a>
+                    </li>
                     <li>-</li>
-                    <li><a href="http://en.wikipedia.org/wiki/Web_development">Web</a></li>
+                    <li class="badge badge-default">
+                        <a href="http://en.wikipedia.org/wiki/Web_development">Web</a>
+                    </li>
                     <li>-</li>
-                    <li><a href="http://en.wikipedia.org/wiki/Software_architecture">Architecture</a></li>
+                    <li class="badge badge-default">
+                        <a href="http://en.wikipedia.org/wiki/Software_architecture">Architecture</a>
+                    </li>
                     <li>-</li>
-                    <li><a href="http://en.wikipedia.org/wiki/Web_design">Design</a></li>
+                    <li class="badge badge-default">
+                        <a href="http://en.wikipedia.org/wiki/Web_design">Design</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -43,8 +51,7 @@
         <div class="pad"></div>
     </div>
     <div class="container">
-        <div class="pad"></div>
-        <div class="row">
+        <article id="introduction" class="row">
             <h2>Introducing Jake</h2>
 
             <div class="col-sm-4">
@@ -65,15 +72,10 @@
 
                 <p>Jake values shipped products and dislikes bureaucracy.</p>
             </div>
-        </div>
-        <div class="pad"></div>
-        <!--<p class="text-center">If you'd like to know more, read my <a href="/blog" class="btn btn-primary">Blog</a></p>-->
-
-        <div class="pad"></div>
+        </article>
     </div>
-    <div id="projects">
+    <article id="projects">
         <div class="container">
-            <div class="pad"></div>
             <h2>Projects</h2>
 
             <p>Some of my free-time projects and their technologies.</p>
@@ -121,18 +123,14 @@
             <p><a href="https://github.com/jakecoffman?tab=repositories" target="_blank">
                 But wait, there's more! <i class="fa fa-external-link"></i>
             </a></p>
-            <div class="pad"></div>
-            <div class="pad"></div>
         </div>
-    </div>
-    <div class="container">
-        <div class="pad"></div>
-        <div class="row">
-            <h2>Contact</h2>
+    </article>
+    <article class="container">
+        <h2>Contact</h2>
 
+        <div id="contact-buttons-container">
             <p>Choose your own adventure:</p>
-
-            <center>
+            <div id="contact-buttons">
                 <a href="http://twitter.com/nill" class="btn btn-primary"><i class="fa fa-twitter fa-5x"></i></a>
                 <a href="http://lnkd.in/gP7PCE" class="btn btn-primary"><i class="fa fa-linkedin fa-5x"></i></a>
                 <a href="http://stackoverflow.com/users/24638/jake" class="btn btn-primary"><i
@@ -140,22 +138,13 @@
                 <a href="https://www.youtube.com/user/calicoJake" class="btn btn-primary"><i
                         class="fa fa-5x fa-youtube"></i></a>
                 <a href="https://github.com/jakecoffman" class="btn btn-primary"><i class="fa fa-5x fa-github"></i></a>
-            </center>
-
+            </div>
         </div>
-        <div class="pad"></div>
-        <div class="pad"></div>
-    </div>
-
+    </article>
 </div>
 <footer class="footer">
     <div class="container">
         <p>All words and code by Jake</p>
-        <!-- <ul class="footer-links">
-            <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
-            <li class="muted">·</li>
-            <li><a href="#/?scrollTo=contact"><i class="fa fa-envelope"></i> Contact</a></li>
-        </ul> -->
     </div>
 </footer>
 <script>
