@@ -1,125 +1,36 @@
 ---
-layout: home
-title: Home
+layout: page
+description: "on software and stuff"
 ---
-<div class="jumbotron" id="hero">
-    <!--<div class="pad"></div>-->
-    <div class="container-fluid">
-        <div class="row">
-            <h1>Jake Coffman</h1>
 
-            <p>Software Developer</p>
-            <ul class="list-inline" style="font-size: 0.7em">
-                <li class="badge badge-default">
-                    <a href="http://en.wikipedia.org/wiki/Application_software">Applications</a>
-                </li>
-                <li>-</li>
-                <li class="badge badge-default">
-                    <a href="http://en.wikipedia.org/wiki/Web_development">Web</a>
-                </li>
-                <li>-</li>
-                <li class="badge badge-default">
-                    <a href="http://en.wikipedia.org/wiki/Software_architecture">Architecture</a>
-                </li>
-                <li>-</li>
-                <li class="badge badge-default">
-                    <a href="http://en.wikipedia.org/wiki/Web_design">Design</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="pad"></div>
-    <div class="pad"></div>
-    <div class="pad"></div>
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+    </a>
+    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
-<div class="container">
-    <article id="introduction" class="row">
-        <h2>Introducing Jake</h2>
+<hr>
+{% endfor %}
 
-        <div class="col-sm-4">
-            <div class="thumbnail"><img class="marketing-img" src="/static/mvc.png"></div>
-            <h3>Full-Stack</h3>
-
-            <p>Jake is comfortable in any layer of the software stack.</p>
-        </div>
-        <div class="col-sm-4">
-            <div class="thumbnail"><img class="marketing-img" src="/static/ch.png"></div>
-            <h3>Software hobbyist</h3>
-
-            <p>Jake considers software a hobby and learns new things in his own time.</p>
-        </div>
-        <div class="col-sm-4">
-            <div class="thumbnail"><img class="marketing-img" src="/static/initech.png"></div>
-            <h3>Gets things done</h3>
-
-            <p>Jake values shipped products and dislikes bureaucracy.</p>
-        </div>
-    </article>
-</div>
-<article id="projects">
-    <div class="container">
-        <h2>Projects</h2>
-
-        <p>Some of my free-time projects and their technologies.</p>
-
-        <div class="row">
-            <ul>
-                <li><a href="http://stldevs.com" target="_blank">stldevs.com</a> a social network for St. Louis developers (Go)</li>
-                <li>a <a href="https://github.com/jakecoffman/gorunner" target="_blank">Jenkins clone</a> (Go/Angularjs)</li>
-                <li><a href="http://www.jakecoffman.com/grocery" target="_blank">simple grocery list</a> with responsive print
-                    (Angularjs)
-                </li>
-                <li>a command-line <a href="https://github.com/jakecoffman/image-resizer" target="_blank">image resizer</a> (Go)
-                </li>
-                <li>my team's <a href="https://github.com/jakecoffman/winningapp" target="_blank">Globalhack II entry</a> (Groovy on
-                    Grails & Angularjs)
-                </li>
-                <li>a command-line utility to <a href="https://github.com/jakecoffman/sshh" target="_blank">run commands across
-                    multiple machines</a> (Go)
-                </li>
-                <li>the smallest possible <a href="https://github.com/jakecoffman/minimal-docker-golang" target="_blank">docker
-                    image</a> to run executables (Docker & Go)
-                </li>
-                <li>a command-line utility that <a href="https://github.com/jakecoffman/watch" target="_blank">watches</a> a
-                    directory for changes then executes a command (Go)
-                </li>
-                <li>gamification of <a href="https://github.com/jakecoffman/equation-solver-game" target="_blank">solving
-                    equations</a> (Python/Angularjs)
-                </li>
-                <li>game of life in <a href="https://github.com/jakecoffman/ng-gol" target="_blank">Angularjs</a>, <a
-                        href="https://github.com/jakecoffman/GameOfLifeFactory" target="_blank">Java</a>, <a
-                        href="https://github.com/jakecoffman/game-of-life" target="_blank">Ruby</a></li>
-                <li>a pure Python <a href="https://github.com/jakecoffman/json_parser" target="_blank">JSON parser</a> using
-                    generators
-                </li>
-                <li>another <a href="https://github.com/jakecoffman/taskpy" target="_blank">Jenkins clone</a> (Python)</li>
-                <li><a href="http://www.jakecoffman.com/stl-tech-jobs/" target="_blank">job aggregator</a> for St Louis area tech
-                    jobs (Python)
-                </li>
-                <li>Python, Go, and Angularjs <a href="https://www.youtube.com/user/calicoJake" target="_blank">video tutorials</a>
-                    (1K+ subscribers)
-                </li>
-            </ul>
-        </div>
-
-        <p><a href="https://github.com/jakecoffman?tab=repositories" target="_blank">
-            But wait, there's more! <i class="fa fa-external-link"></i>
-        </a></p>
-    </div>
-</article>
-<article class="container">
-    <h2>Contact</h2>
-
-    <div id="contact-buttons-container">
-        <p>Choose your own adventure:</p>
-        <div id="contact-buttons">
-            <a href="http://twitter.com/nill" class="btn btn-primary"><i class="fa fa-twitter fa-5x"></i></a>
-            <a href="http://lnkd.in/gP7PCE" class="btn btn-primary"><i class="fa fa-linkedin fa-5x"></i></a>
-            <a href="http://stackoverflow.com/users/24638/jake" class="btn btn-primary"><i
-                    class="fa fa-5x fa-stack-overflow"></i></a>
-            <a href="https://www.youtube.com/user/calicoJake" class="btn btn-primary"><i
-                    class="fa fa-5x fa-youtube"></i></a>
-            <a href="https://github.com/jakecoffman" class="btn btn-primary"><i class="fa fa-5x fa-github"></i></a>
-        </div>
-    </div>
-</article>
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
