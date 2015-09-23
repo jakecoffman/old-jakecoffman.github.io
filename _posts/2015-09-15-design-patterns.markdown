@@ -11,10 +11,10 @@ of all the design patterns
 <a href="https://github.com/search?l=Java&q=design+patterns&type=Repositories&utf8=%E2%9C%93">
 all across github</a>.
 
-It could be argued that Design Patterns create a common language that developers can use
-when talking about a potential implementation. That might be true, but I think it creates
-a lot of confusion when someone is looking at an implementation of a pattern in code.
-Especially new developers. This is because many of the patterns are a needless explosion of classes.
+Some argue that Design Patterns create a common language that developers can use
+when talking about a potential implementation. That is true, but I think it creates
+a lot of confusion when someone is looking at an implementation of a pattern in code,
+especially new developers. This is because many of the patterns are a needless explosion of classes.
 
 <h2 class="section-heading">Visitor Pattern</h2>
 
