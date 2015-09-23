@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "against design patterns"
-subtitle:   "another name for the visitor pattern is single dispatch"
+title:      "against design patterns pt 1"
+subtitle:   "visitor pattern vs single dispatch"
 header-img: "img/post-bg-03.jpg"
 ---
 
