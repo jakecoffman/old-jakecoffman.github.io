@@ -1,0 +1,17 @@
+{
+  "name": "app-drawer-template",
+  "authors": [
+    "The Polymer Authors"
+  ],
+  "private": true,
+  "dependencies": {
+    "app-layout": "polymerlabs/app-layout#master",
+    "app-route": "polymerelements/app-route#~0.9.0",
+    "polymer": "polymer/polymer#^1.4.0",
+    "iron-elements": "PolymerElements/iron-elements#^1.0.10",
+    "paper-elements": "PolymerElements/paper-elements#^1.0.7"
+  },
+  "devDependencies": {
+    "web-component-tester": "^4.0.0"
+  }
+}

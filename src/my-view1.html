@@ -1,0 +1,263 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="my-view1">
+
+    <template>
+
+        <style>
+            :host {
+                display: block;
+                padding: 10px;
+            }
+
+            .card {
+                box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+                padding: 16px;
+                margin: 24px;
+                border-radius: 5px;
+                background-color: #fff;
+                color: #757575;
+            }
+
+            .circle {
+                display: inline-block;
+                height: 64px;
+                width: 64px;
+                border-radius: 50%;
+                background: #ddd;
+                line-height: 64px;
+                font-size: 30px;
+                color: #555;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 22px;
+                margin: 16px 0;
+                color: #212121;
+            }
+
+            #me {
+                @apply(--layout-horizontal);
+            }
+
+            .jake-image {
+                width: 230px;
+                height: 230px;
+                background: url('https://avatars3.githubusercontent.com/u/886768?v=3&s=460');
+                background-size: cover;
+            }
+
+            .jake-content {
+                @apply(--layout-flex);
+                float: left;
+            }
+
+            .jake-header {
+                @apply(--paper-font-headline);
+            }
+
+            .jake-name {
+                color: var(--paper-grey-600);
+                margin: 10px 0;
+            }
+
+            paper-icon-button.jake-icon {
+                --iron-icon-fill-color: white;
+                --iron-icon-stroke-color: var(--paper-grey-600);
+            }
+
+            .projects {
+                @apply(--layout-horizontal);
+                @apply(--layout-wrap);
+                @apply(--layout-center-justified);
+            }
+
+            .projects > paper-card {
+                max-width: 320px;
+                margin: 16px;
+            }
+
+            .card-heading {
+                @apply(--paper-font-headline);
+            }
+
+            .card-content {
+                min-height: 160px;
+            }
+
+            h2 {
+                @apply(--paper-font-headline);
+            }
+
+            :root {
+                --paper-item-focused-before: {
+                    background-color: white;
+                }
+            }
+        </style>
+
+        <h2 class="heading">Me</h2>
+
+        <paper-card id="me">
+            <div class="jake-content">
+                <div class="card-content">
+                    <div class="jake-header">Jake Coffman</div>
+                    <div class="jake-name">Software Developer</div>
+                    <div>Web, Mobile, really anything</div>
+                    <div role="listbox">
+                        <paper-icon-item>
+                            <iron-icon icon="communication:location-on" item-icon>
+                            </iron-icon>
+                            <paper-item-body two-line>
+                                <div>St. Louis, MO</div>
+                                <div secondary>t-ravs and gooey butter cake</div>
+                            </paper-item-body>
+                        </paper-icon-item>
+
+                        <paper-icon-item>
+                            <iron-icon icon="communication:email" item-icon>
+                            </iron-icon>
+                            <paper-item-body two-line>
+                                <div><a href="mailto:jake@jakecoffman.com">jake@jakecoffman.com</a></div>
+                                <div secondary>no spam please</div>
+                            </paper-item-body>
+                        </paper-icon-item>
+
+                        <paper-icon-item>
+                            <iron-icon src="../images/Github-Mark.png" item-icon>
+                            </iron-icon>
+                            <paper-item-body two-line>
+                                <div><a href="https://github.com/jakecoffman">jakecoffman</a></div>
+                                <div secondary>so many unfinished projects</div>
+                            </paper-item-body>
+                        </paper-icon-item>
+
+                        <paper-icon-item>
+                            <iron-icon src="../images/twitter-512.png" item-icon>
+                            </iron-icon>
+                            <paper-item-body two-line>
+                                <div><a href="https://twitter.com/nill">@nill</a></div>
+                                <div secondary>tweets on software and St. Louis</div>
+                            </paper-item-body>
+                        </paper-icon-item>
+                    </div>
+                </div>
+            </div>
+            <div class="jake-image"></div>
+        </paper-card>
+
+        <h2 class="heading">Projects</h2>
+
+        <div class="projects">
+            <paper-card image="../images/stldevs.png">
+                <div class="card-content">
+                    <div class="card-heading">
+                        stldevs.com
+                    </div>
+                    <p>I scraped Github for users in the St. Louis area and displayed those with the most stars and
+                        forks. Polymer frontend and Go backend.
+                </div>
+                <div class="card-actions">
+                    <paper-button><a href="http://stldevs.com">View</a></paper-button>
+                    <paper-button><a href="https://github.com/jakecoffman/stldevs">Source</a></paper-button>
+                </div>
+            </paper-card>
+            <paper-card image="../images/gorunner.png">
+                <div class="card-content">
+                    <div class="card-heading">
+                        Go runner
+                    </div>
+                    <p>I used to be obsessed with rewriting Jenkins to be better. This was my attempt using Go,
+                        AngularJS on the frontend.
+                </div>
+                <div class="card-actions">
+                    <paper-button><a href="https://github.com/jakecoffman/gorunner">Source</a></paper-button>
+                </div>
+            </paper-card>
+            <paper-card image="../images/spyfall.png">
+                <div class="card-content">
+                    <div class="card-heading">
+                        Spyfall
+                    </div>
+                    <p>A game powered by websockets! Polymer and Go.
+                </div>
+                <div class="card-actions">
+                    <paper-button><a href="http://www.jakecoffman.com/fyspall">Play</a></paper-button>
+                    <paper-button><a href="https://github.com/jakecoffman/fyspall">Source</a></paper-button>
+                </div>
+            </paper-card>
+            <paper-card image="../images/summit.png">
+                <div class="card-content">
+                    <div class="card-heading">
+                        Summit Landscape
+                    </div>
+                    <p>A simple one-page marketing site for my friend's lawncare service. Hire him!
+                </div>
+                <div class="card-actions">
+                    <paper-button><a href="http://www.stlsummit.com/">View</a></paper-button>
+                </div>
+            </paper-card>
+            <paper-card image="../images/tanks.png">
+                <div class="card-content">
+                    <div class="card-heading">
+                        Tank Game
+                    </div>
+                    <p>A multi-player game I am making in C# with Unity. If you're interested in beta testing let me
+                        know.
+                </div>
+                <div class="card-actions">
+                    <paper-button disabled>Coming soon...</paper-button>
+                </div>
+            </paper-card>
+            <paper-card image="../images/arduino.png">
+                <div class="card-content">
+                    <div class="card-heading">
+                        Arduino Security System
+                    </div>
+                    <p>One of my first open source contributions, an Arduino emailed me when my door opened. Written in
+                        C.
+                </div>
+                <div class="card-actions">
+                    <paper-button><a href="http://youtu.be/lfOxgK1-5HM">Demo</a></paper-button>
+                    <paper-button><a href="https://github.com/jakecoffman/arduino-security-system">Source</a></paper-button>
+                </div>
+            </paper-card>
+        </div>
+
+    </template>
+
+    <script>
+
+        Polymer({
+
+            is: 'my-view1',
+
+            properties: {
+                selectedIndex: {
+                    type: Number,
+                    value: -1,
+                    observer: 'onSelectedChanged'
+                }
+            },
+
+            onSelectedChanged: function () {
+                console.log(this.selectedIndex);
+                this.selectedIndex = -1;
+            }
+
+        });
+
+    </script>
+
+</dom-module>
