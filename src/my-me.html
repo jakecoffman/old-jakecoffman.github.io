@@ -1,0 +1,62 @@
+<html><head><link rel="import" href="../bower_components/polymer/polymer.html">
+
+</head><body><dom-module id="my-me">
+
+    <template>
+
+        <style>:host{display:block;padding:10px;}.card{box-shadow:0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);padding:16px;margin:24px;border-radius:5px;background-color:#fff;color:#757575;}.circle{display:inline-block;height:64px;width:64px;border-radius:50%;background:#ddd;line-height:64px;font-size:30px;color:#555;text-align:center;}h1{font-size:22px;margin:16px 0;color:#212121;}#me{@apply (--layout-horizontal);max-width:600px;margin-left:auto;margin-right:auto;}.jake-image{width:230px;height:230px;background:url('https://avatars3.githubusercontent.com/u/886768?v=3&s=460');background-size:cover;}.jake-content{@apply (--layout-flex);float:left;}.jake-header{@apply (--paper-font-headline);}.jake-name{color:var(--paper-grey-600);margin:10px 0;}paper-icon-button.jake-icon{--iron-icon-fill-color:white;--iron-icon-stroke-color:var(--paper-grey-600);}.card-heading{@apply (--paper-font-headline);}.card-content{min-height:160px;}:root{--paper-item-focused-before:{background-color:white;};}</style>
+
+        <paper-card id="me">
+            <div class="jake-content">
+                <div class="card-content">
+                    <div class="jake-header">Software Developer</div>
+                    <div class="jake-name">Web, Mobile, really anything</div>
+                    <div></div>
+                    <div role="listbox">
+                        <paper-icon-item>
+                            <iron-icon icon="communication:location-on" item-icon="">
+                            </iron-icon>
+                            <paper-item-body two-line="">
+                                <div>St. Louis, MO</div>
+                                <div secondary="">t-ravs and gooey butter cake</div>
+                            </paper-item-body>
+                        </paper-icon-item>
+
+                        <paper-icon-item>
+                            <iron-icon icon="communication:email" item-icon="">
+                            </iron-icon>
+                            <paper-item-body two-line="">
+                                <div><a href="mailto:jake@jakecoffman.com">jake@jakecoffman.com</a></div>
+                                <div secondary="">no spam please</div>
+                            </paper-item-body>
+                        </paper-icon-item>
+
+                        <paper-icon-item>
+                            <iron-icon src="../images/Github-Mark.png" item-icon="">
+                            </iron-icon>
+                            <paper-item-body two-line="">
+                                <div><a href="https://github.com/jakecoffman">jakecoffman</a></div>
+                                <div secondary="">so many unfinished projects</div>
+                            </paper-item-body>
+                        </paper-icon-item>
+
+                        <paper-icon-item>
+                            <iron-icon src="../images/twitter-512.png" item-icon="">
+                            </iron-icon>
+                            <paper-item-body two-line="">
+                                <div><a href="https://twitter.com/nill">@nill</a></div>
+                                <div secondary="">tweets on software and St. Louis</div>
+                            </paper-item-body>
+                        </paper-icon-item>
+                    </div>
+                </div>
+            </div>
+            <div class="jake-image"></div>
+        </paper-card>
+
+    </template>
+
+    <script>Polymer({is:"my-me",properties:{selectedIndex:{type:Number,value:-1,observer:"onSelectedChanged"}},onSelectedChanged:function(){console.log(this.selectedIndex),this.selectedIndex=-1}});</script>
+
+</dom-module>
+</body></html>
