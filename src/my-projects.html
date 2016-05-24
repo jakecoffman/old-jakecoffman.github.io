@@ -1,0 +1,131 @@
+<!--
+@license
+Copyright (c) 2016 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+-->
+
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<dom-module id="my-projects">
+
+  <template>
+
+    <style>
+      :host {
+        display: block;
+        padding: 10px;
+      }
+
+      .projects {
+        @apply(--layout-horizontal);
+        @apply(--layout-wrap);
+        @apply(--layout-center-justified);
+      }
+
+      .projects > paper-card {
+        max-width: 320px;
+        margin: 16px;
+      }
+
+      .card-heading {
+        @apply(--paper-font-headline)
+      }
+
+      .card-content {
+        height: 175px;
+      }
+    </style>
+
+    <div class="projects">
+      <paper-card image="../images/stldevs.png">
+        <div class="card-content">
+          <div class="card-heading">
+            stldevs.com
+          </div>
+          <p>I scraped Github for users in the St. Louis area and displayed those with the most stars and
+            forks. Polymer frontend and Go backend.
+        </div>
+        <div class="card-actions">
+          <paper-button><a href="http://stldevs.com">View</a></paper-button>
+          <paper-button><a href="https://github.com/jakecoffman/stldevs">Source</a></paper-button>
+        </div>
+      </paper-card>
+      <paper-card image="../images/gorunner.png">
+        <div class="card-content">
+          <div class="card-heading">
+            Go runner
+          </div>
+          <p>I used to be obsessed with rewriting Jenkins to be better. This was my attempt using Go,
+            AngularJS on the frontend.
+        </div>
+        <div class="card-actions">
+          <paper-button><a href="https://github.com/jakecoffman/gorunner">Source</a></paper-button>
+        </div>
+      </paper-card>
+      <paper-card image="../images/spyfall.png">
+        <div class="card-content">
+          <div class="card-heading">
+            Spyfall
+          </div>
+          <p>A game powered by websockets! Polymer and Go.
+        </div>
+        <div class="card-actions">
+          <paper-button><a href="http://www.jakecoffman.com/fyspall">Play</a></paper-button>
+          <paper-button><a href="https://github.com/jakecoffman/fyspall">Source</a></paper-button>
+        </div>
+      </paper-card>
+      <paper-card image="../images/summit.png">
+        <div class="card-content">
+          <div class="card-heading">
+            Summit Landscape
+          </div>
+          <p>A simple one-page marketing site for my friend's lawncare service. Hire him!
+        </div>
+        <div class="card-actions">
+          <paper-button><a href="http://www.stlsummit.com/">View</a></paper-button>
+        </div>
+      </paper-card>
+      <paper-card image="../images/tanks.png">
+        <div class="card-content">
+          <div class="card-heading">
+            Tank Game
+          </div>
+          <p>A multi-player game I am making in C# with Unity. If you're interested in beta testing let me
+            know.
+        </div>
+        <div class="card-actions">
+          <paper-button disabled>Coming soon...</paper-button>
+        </div>
+      </paper-card>
+      <paper-card image="../images/arduino.png">
+        <div class="card-content">
+          <div class="card-heading">
+            Arduino Security System
+          </div>
+          <p>One of my first open source contributions, an Arduino emailed me when my door opened. Written in
+            C.
+        </div>
+        <div class="card-actions">
+          <paper-button><a href="http://youtu.be/lfOxgK1-5HM">Demo</a></paper-button>
+          <paper-button><a href="https://github.com/jakecoffman/arduino-security-system">Source</a></paper-button>
+        </div>
+      </paper-card>
+    </div>
+
+  </template>
+
+  <script>
+
+    Polymer({
+
+      is: 'my-projects'
+
+    });
+
+  </script>
+
+</dom-module>
