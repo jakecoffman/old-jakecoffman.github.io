@@ -10,9 +10,10 @@
 
     <template>
 
-        <style>:host{display:block;padding:10px;}#me{@apply (--layout-horizontal);max-width:600px;margin-left:auto;margin-right:auto;}.jake-image{width:230px;height:230px;background:url('https://avatars3.githubusercontent.com/u/886768?v=3&s=460');background-size:cover;}.jake-content{@apply (--layout-flex);float:left;}.jake-header{@apply (--paper-font-headline);}.jake-name{color:var(--paper-grey-600);margin:10px 0;}.card-content{min-height:160px;}:root{--paper-item-focused-before:{background-color:white;};}</style>
+        <style>:host{display:block;padding:10px;}#me{@apply (--layout-horizontal);@apply (--layout-wrap);max-width:600px;margin-left:auto;margin-right:auto;}.jake-image{width:230px;height:230px;background:url('https://avatars3.githubusercontent.com/u/886768?v=3&s=460');background-size:cover;}.jake-content{@apply (--layout-flex);float:left;}.jake-header{@apply (--paper-font-headline);}.jake-name{color:var(--paper-grey-600);margin:10px 0;}.card-content{min-height:160px;}:root{--paper-item-focused-before:{background-color:white;};}</style>
 
         <paper-card id="me">
+            <div class="jake-image"></div>
             <div class="jake-content">
                 <div class="card-content">
                     <div class="jake-header">Software Developer</div>
@@ -57,7 +58,6 @@
                     </div>
                 </div>
             </div>
-            <div class="jake-image"></div>
         </paper-card>
 
     </template>
