@@ -9,16 +9,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Jake Coffman</title>
+    <title>Q &amp; A - Jake Coffman</title>
     <meta name="generator" content="Hugo 0.16" />
 
     
-    <link rel="canonical" href="http://jakecoffman.com/">
+    <link rel="canonical" href="http://jakecoffman.com/qa/">
     
     <meta name="author" content="Jake Coffman">
     
 
-    <meta property="og:url" content="http://jakecoffman.com/">
+    <meta property="og:url" content="http://jakecoffman.com/qa/">
     <meta property="og:title" content="Jake Coffman">
     <meta property="og:image" content="http://jakecoffman.com/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="Jake Coffman">
@@ -68,9 +68,6 @@
     <script src="http://jakecoffman.com/javascripts/modernizr.js"></script>
 
     
-    <link href="http://jakecoffman.com/index.xml" rel="alternate" type="application/rss+xml" title="Jake Coffman" />
-    <link href="http://jakecoffman.com/index.xml" rel="feed" type="application/rss+xml" title="Jake Coffman" />
-    
 
   </head>
   <body class="palette-primary-brown palette-accent-orange">
@@ -96,7 +93,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Jake Coffman
+        Q &amp; A
       </div>
     </div>
 
@@ -166,14 +163,11 @@
 
 
 
-<a class="current" title="Intro" href="http://jakecoffman.com/">
+<a  title="Intro" href="http://jakecoffman.com/">
 	
 	Intro
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
   
 </li>
@@ -203,11 +197,14 @@
 
 
 
-<a  title="Q&amp;A" href="http://jakecoffman.com/qa/">
+<a class="current" title="Q&amp;A" href="http://jakecoffman.com/qa/">
 	
 	Q&amp;A
 </a>
 
+
+<ul id="scrollspy">
+</ul>
 
   
 </li>
@@ -247,74 +244,89 @@
 
 	<article class="article">
 		<div class="wrapper">
-			
-				<h1>Introduction </h1>
-
-				
-
-<h2 id="hello-world">Hello world!</h2>
-
-<p>Hi, I&rsquo;m Jake Coffman and I am a developer in St. Louis Missouri.</p>
-
-<p>I have a Bachelors in Computer Science and have worked professionally in C++, Python, JavaScript, Java, Groovy, Ruby,
-Go, and C#.</p>
-
-<h2 id="experience">Experience</h2>
-
-<p>I started out working on low level security libraries and various security related GUIs at Cerner.</p>
-
-<p>Then I moved on to doing low level network programming on a 3-D distributed simulation of fighter jets at Boeing.
-I started to pick up web programming while I was there, so my next job was a startup called Appistry.</p>
-
-<p>At Appistry I helped create an ETL system that took HL7 data and transformed it into SQL where it could be searched
-from the web. I also did various other &ldquo;Big Data&rdquo; web interfaces.</p>
-
-<p>Now I am at World Wide Technology where I maintain a sales-oriented system of web applications that allow customers
-to launch virtual machines and connect to them via their browser.</p>
-
-<h2 id="interests">Interests</h2>
-
-<p>I like game development and have been working on games in my free time. Game development is all about optimization of
-the main loop and as such is really interesting to work on. That and you see your results instantly and can play with
-others.</p>
-
-<p>I also like web development as a way to expose what I do to potentially billions of people.</p>
+			<h1>Q &amp; A </h1>
 
 			
+
+<h3 id="what-are-your-general-thoughts-about-programming">What are your general thoughts about programming?</h3>
+
+<ul>
+<li>Statically typed languages got a bad reputation and now we are paying the price for having large dynamically typed applications that are difficult to refactor.</li>
+<li>Just as pure OOP is not the answer, pure functional is not either.</li>
+<li>Don&rsquo;t use Mongo unless you are using it to store documents that have no relationship, nor ever will have relationships.</li>
+<li>ORMs will break down, be prepared to write queries by hand.</li>
+<li>Don&rsquo;t rewrite your codebase.</li>
+<li>Don&rsquo;t re-architect things unless it&rsquo;s really a problem. You work for a business, add value.</li>
+</ul>
+
+<h3 id="what-are-your-general-thoughts-about-managing-developers">What are your general thoughts about managing developers?</h3>
+
+<ul>
+<li>Typically non-developers can&rsquo;t lead developers effectively.</li>
+<li>Project managers aren&rsquo;t above developers, nor the other way around. We are equals and need to decide what gets done next. You manage customer expectations and I&rsquo;ll get things done.</li>
+<li>Agile is not for developers, it&rsquo;s for customers and project management.</li>
+<li>Ideas are worthless. Execution is everything.</li>
+</ul>
+
+<h3 id="why-do-you-use-go-so-much">Why do you use Go so much?</h3>
+
+<p>I like to use Go for my personal projects because it&rsquo;s simple to get running and deployment is far and away much easier than any other programming language out there. There definitely are some rough spots in the language such as lack of generics, but I find the trade-off is worth it.</p>
+
+<h3 id="how-do-you-feel-about-language-x-or-framework-y">How do you feel about language X or framework Y?</h3>
+
+<p>I think most languages and frameworks have redeeming factors so you won&rsquo;t hear me say I hate any particular one. The most challenging part of software is choosing the right stack for the problem at hand.</p>
+
+<p>I also think it&rsquo;s important to not limit your learning to just a single language or framework. You can learn so much more about your favorite language just by learning a different one.</p>
+
+<h3 id="favorite-os-for-developing">Favorite OS for developing?</h3>
+
+<p>I have used Mac, Windows, and Linux desktops successfully in developing cross platform applications.</p>
+
+<p>I personally prefer Windows due to the low cost of hardware and have found &ldquo;Bash for Windows&rdquo; to be quite nice.</p>
+
+<p>Typically my Linux desktops last about 6 months before I do an upgrade that breaks everything and I go back to Windows.
+Linux on the Desktop is still to immature and tends to be more of a hobby than an OS.</p>
+
+<h3 id="why-don-t-your-personal-projects-have-more-tests">Why don&rsquo;t your personal projects have more tests?</h3>
+
+<p>Most of them are proof of concepts or &ldquo;for fun&rdquo; and since writing tests isn&rsquo;t fun I don&rsquo;t. Code without tests is not production ready so I don&rsquo;t recommend using most of my projects in production.</p>
+
+<p>If ever a project takes off, the first thing I would do is write tests.</p>
+
 
 			<aside class="copyright" role="note">
-
 			</aside>
 
 			<footer class="footer">
 				
 
-
-
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
-  </div>
-
   
-  
-  <div class="next">
       <a href="http://jakecoffman.com/projects/" title="Personal Projects">
         <span class="direction">
-          Next
+          Previous
         </span>
         <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
           <div class="stretch">
             <div class="title">
               Personal Projects
             </div>
           </div>
-          <div class="button button-next" role="button" aria-label="Next">
-            <i class="icon icon-forward"></i>
-          </div>
         </div>
       </a>
+  
+  </div>
+
+  <div class="next">
+  
   </div>
 </nav>
+
+
 
 
 

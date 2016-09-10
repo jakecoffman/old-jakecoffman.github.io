@@ -9,16 +9,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Jake Coffman</title>
+    <title>Personal Projects - Jake Coffman</title>
     <meta name="generator" content="Hugo 0.16" />
 
     
-    <link rel="canonical" href="http://jakecoffman.com/">
+    <link rel="canonical" href="http://jakecoffman.com/projects/">
     
     <meta name="author" content="Jake Coffman">
     
 
-    <meta property="og:url" content="http://jakecoffman.com/">
+    <meta property="og:url" content="http://jakecoffman.com/projects/">
     <meta property="og:title" content="Jake Coffman">
     <meta property="og:image" content="http://jakecoffman.com/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="Jake Coffman">
@@ -68,9 +68,6 @@
     <script src="http://jakecoffman.com/javascripts/modernizr.js"></script>
 
     
-    <link href="http://jakecoffman.com/index.xml" rel="alternate" type="application/rss+xml" title="Jake Coffman" />
-    <link href="http://jakecoffman.com/index.xml" rel="feed" type="application/rss+xml" title="Jake Coffman" />
-    
 
   </head>
   <body class="palette-primary-brown palette-accent-orange">
@@ -79,7 +76,7 @@
 
 
 <div class="backdrop">
-	<div class="backdrop-paper"></div>
+  <div class="backdrop-paper"></div>
 </div>
 
 <input class="toggle" type="checkbox" id="toggle-drawer">
@@ -87,7 +84,7 @@
 <label class="toggle-button overlay" for="toggle-drawer"></label>
 
 <header class="header">
-	<nav aria-label="Header">
+  <nav aria-label="Header">
   <div class="bar default">
     <div class="button button-menu" role="button" aria-label="Menu">
       <label class="toggle-button icon icon-menu" for="toggle-drawer">
@@ -96,7 +93,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Jake Coffman
+        Personal Projects
       </div>
     </div>
 
@@ -129,11 +126,35 @@
   </div>
 </nav>
 
+  <style>
+    .pproject {
+      display: flex;
+      flex-direction: row;
+      padding-top: 20px;
+      font-size: 16px;
+    }
+    @media (max-width: 600px) {
+      .pproject {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .pproject img {
+      box-shadow: 0 0 5px #888888;
+      border-radius: 200px;
+      max-width: 300px;
+    }
+    .pproject > a {
+      color: white !important;
+      text-decoration: none !important;
+    }
+  </style>
 </header>
 
 <main class="main">
-	<div class="drawer">
-		<nav aria-label="Navigation">
+  <div class="drawer">
+    <nav aria-label="Navigation">
   <a href="http://jakecoffman.com/" class="project">
     <div class="banner">
       
@@ -166,14 +187,11 @@
 
 
 
-<a class="current" title="Intro" href="http://jakecoffman.com/">
+<a  title="Intro" href="http://jakecoffman.com/">
 	
 	Intro
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
   
 </li>
@@ -186,11 +204,14 @@
 
 
 
-<a  title="Personal Projects" href="http://jakecoffman.com/projects/">
+<a class="current" title="Personal Projects" href="http://jakecoffman.com/projects/">
 	
 	Personal Projects
 </a>
 
+
+<ul id="scrollspy">
+</ul>
 
   
 </li>
@@ -243,69 +264,210 @@
   </div>
 </nav>
 
-	</div>
+  </div>
 
-	<article class="article">
-		<div class="wrapper">
-			
-				<h1>Introduction </h1>
+  <article class="article">
+    <div class="wrapper">
+      <h1>Personal Projects </h1>
 
-				
-
-<h2 id="hello-world">Hello world!</h2>
-
-<p>Hi, I&rsquo;m Jake Coffman and I am a developer in St. Louis Missouri.</p>
-
-<p>I have a Bachelors in Computer Science and have worked professionally in C++, Python, JavaScript, Java, Groovy, Ruby,
-Go, and C#.</p>
-
-<h2 id="experience">Experience</h2>
-
-<p>I started out working on low level security libraries and various security related GUIs at Cerner.</p>
-
-<p>Then I moved on to doing low level network programming on a 3-D distributed simulation of fighter jets at Boeing.
-I started to pick up web programming while I was there, so my next job was a startup called Appistry.</p>
-
-<p>At Appistry I helped create an ETL system that took HL7 data and transformed it into SQL where it could be searched
-from the web. I also did various other &ldquo;Big Data&rdquo; web interfaces.</p>
-
-<p>Now I am at World Wide Technology where I maintain a sales-oriented system of web applications that allow customers
-to launch virtual machines and connect to them via their browser.</p>
-
-<h2 id="interests">Interests</h2>
-
-<p>I like game development and have been working on games in my free time. Game development is all about optimization of
-the main loop and as such is really interesting to work on. That and you see your results instantly and can play with
-others.</p>
-
-<p>I also like web development as a way to expose what I do to potentially billions of people.</p>
-
-			
-
-			<aside class="copyright" role="note">
-
-			</aside>
-
-			<footer class="footer">
-				
+      <p>There&rsquo;s always more over at my Github! <a href="https://github.com/jakecoffman">https://github.com/jakecoffman</a></p>
 
 
+      
+      <h2>StL Devs</h2>
+
+      <article class="pproject">
+        <a href="https://stldevs.com">
+          <img src="http://jakecoffman.com/images/stldevs.png"/>
+        </a>
+        <div style="margin-left: 20px">
+          <p>
+            This is a site for discovering what open source work developers are doing in the Greater St. Louis region by harvesting public information from Github.
+          </p>
+          <ul class="links">
+            
+            <li>
+              <a href="https://stldevs.com" target="_blank">
+                 Visit
+              </a>
+            </li>
+            
+            <li>
+              <a href="http://github.com/jakecoffman/stldevs" target="_blank">
+                 Source
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </article>
+
+      
+      <h2>Gorunner</h2>
+
+      <article class="pproject">
+        <a href="http://github.com/jakecoffman/gorunner">
+          <img src="http://jakecoffman.com/images/gorunner.png"/>
+        </a>
+        <div style="margin-left: 20px">
+          <p>
+            I used to be obsessed with rewriting Jenkins to be better. This was my attempt using Go, AngularJS on the frontend.
+          </p>
+          <ul class="links">
+            
+            <li>
+              <a href="http://github.com/jakecoffman/gorunner" target="_blank">
+                 Source
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </article>
+
+      
+      <h2>Spyfall</h2>
+
+      <article class="pproject">
+        <a href="http://www.jakecoffman.com/fyspall">
+          <img src="http://jakecoffman.com/images/spyfall.png"/>
+        </a>
+        <div style="margin-left: 20px">
+          <p>
+            A game powered by websockets! Polymer and Go.
+          </p>
+          <ul class="links">
+            
+            <li>
+              <a href="http://www.jakecoffman.com/fyspall" target="_blank">
+                 Play
+              </a>
+            </li>
+            
+            <li>
+              <a href="http://github.com/jakecoffman/fyspall" target="_blank">
+                 Source
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </article>
+
+      
+      <h2>Summit Landscape Services</h2>
+
+      <article class="pproject">
+        <a href="http://stlsummit.com">
+          <img src="http://jakecoffman.com/images/summit.png"/>
+        </a>
+        <div style="margin-left: 20px">
+          <p>
+            A simple one-page marketing site for my friend&#39;s lawncare service. Hire him!
+          </p>
+          <ul class="links">
+            
+            <li>
+              <a href="http://stlsummit.com" target="_blank">
+                 View
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </article>
+
+      
+      <h2>Tank Game</h2>
+
+      <article class="pproject">
+        <a href="https://github.com/jakecoffman/tanks-unity/releases">
+          <img src="http://jakecoffman.com/images/tanks.png"/>
+        </a>
+        <div style="margin-left: 20px">
+          <p>
+            A multi-player game I am making in C# with Unity. Completely playable right now, go get it!
+          </p>
+          <ul class="links">
+            
+            <li>
+              <a href="https://github.com/jakecoffman/tanks-unity/releases" target="_blank">
+                 Download
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </article>
+
+      
+      <h2>Arduino Security System</h2>
+
+      <article class="pproject">
+        <a href="http://youtu.be/lfOxgK1-5HM">
+          <img src="http://jakecoffman.com/images/arduino.png"/>
+        </a>
+        <div style="margin-left: 20px">
+          <p>
+            One of my first open source contributions, an Arduino emailed me when my door opened. Written in C.
+          </p>
+          <ul class="links">
+            
+            <li>
+              <a href="http://youtu.be/lfOxgK1-5HM" target="_blank">
+                 Watch
+              </a>
+            </li>
+            
+            <li>
+              <a href="https://github.com/jakecoffman/arduino-security-system" target="_blank">
+                 Source
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </article>
+
+      
+
+      <aside class="copyright" role="note">
+      </aside>
+
+      <footer class="footer">
+        
 
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
+  
+      <a href="http://jakecoffman.com/" title="Introduction">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              Introduction
+            </div>
+          </div>
+        </div>
+      </a>
+  
   </div>
 
-  
-  
   <div class="next">
-      <a href="http://jakecoffman.com/projects/" title="Personal Projects">
+  
+      <a href="http://jakecoffman.com/qa/" title="Q &amp; A">
         <span class="direction">
           Next
         </span>
         <div class="page">
           <div class="stretch">
             <div class="title">
-              Personal Projects
+              Q &amp; A
             </div>
           </div>
           <div class="button button-next" role="button" aria-label="Next">
@@ -313,23 +475,26 @@ others.</p>
           </div>
         </div>
       </a>
+  
   </div>
 </nav>
 
 
 
-			</footer>
-		</div>
-	</article>
 
-	<div class="results" role="status" aria-live="polite">
-		<div class="scrollable">
-			<div class="wrapper">
-				<div class="meta"></div>
-				<div class="list"></div>
-			</div>
-		</div>
-	</div>
+
+      </footer>
+    </div>
+  </article>
+
+  <div class="results" role="status" aria-live="polite">
+    <div class="scrollable">
+      <div class="wrapper">
+        <div class="meta"></div>
+        <div class="list"></div>
+      </div>
+    </div>
+  </div>
 </main>
 
     <script>
