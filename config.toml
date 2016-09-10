@@ -1,4 +1,4 @@
-baseurl = "http://jakecoffman.com/"
+baseurl = "http://www.jakecoffman.com/"
 languageCode = "en-us"
 title = "Jake Coffman"
 theme = "hugo-material-docs"
