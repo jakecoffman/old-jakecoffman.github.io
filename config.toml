@@ -1,0 +1,59 @@
+baseurl = "http://jakecoffman.com/"
+languageCode = "en-us"
+title = "Jake Coffman"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+
+[params]
+	# General information
+	author = "Jake Coffman"
+	description = ""
+	copyright = ""
+
+	version = "1.0.0"
+	logo = "images/logo.png"
+	favicon = ""
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "brown"
+    	accent  = "orange"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+
+[social]
+	twitter = "nill"
+	github  = "jakecoffman"
+
+[[menu.main]]
+	name   = "Intro"
+	url    = "/"
+	weight = 0
+
+[[menu.main]]
+	name   = "Personal Projects"
+	url    = "projects/"
+	weight = 10
+
+[[menu.main]]
+name="Q&A"
+url="qa/"
+weight=10
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true

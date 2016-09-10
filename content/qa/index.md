@@ -1,0 +1,44 @@
+---
+title: Q & A
+---
+
+### What are your general thoughts about programming?
+
+- Statically typed languages got a bad reputation and now we are paying the price for having large dynamically typed applications that are difficult to refactor.
+- Just as pure OOP is not the answer, pure functional is not either.
+- Don't use Mongo unless you are using it to store documents that have no relationship, nor ever will have relationships.
+- ORMs will break down, be prepared to write queries by hand.
+- Don't rewrite your codebase.
+- Don't re-architect things unless it's really a problem. You work for a business, add value.
+
+### What are your general thoughts about managing developers?
+
+- Typically non-developers can't lead developers effectively.
+- Project managers aren't above developers, nor the other way around. We are equals and need to decide what gets done next. You manage customer expectations and I'll get things done.
+- Agile is not for developers, it's for customers and project management.
+- Ideas are worthless. Execution is everything.
+
+### Why do you use Go so much?
+
+I like to use Go for my personal projects because it's simple to get running and deployment is far and away much easier than any other programming language out there. There definitely are some rough spots in the language such as lack of generics, but I find the trade-off is worth it.
+
+### How do you feel about language X or framework Y?
+
+I think most languages and frameworks have redeeming factors so you won't hear me say I hate any particular one. The most challenging part of software is choosing the right stack for the problem at hand.
+
+I also think it's important to not limit your learning to just a single language or framework. You can learn so much more about your favorite language just by learning a different one.
+
+### Favorite OS for developing?
+
+I have used Mac, Windows, and Linux desktops successfully in developing cross platform applications.
+
+I personally prefer Windows due to the low cost of hardware and have found "Bash for Windows" to be quite nice.
+
+Typically my Linux desktops last about 6 months before I do an upgrade that breaks everything and I go back to Windows.
+Linux on the Desktop is still to immature and tends to be more of a hobby than an OS.
+
+### Why don't your personal projects have more tests?
+
+Most of them are proof of concepts or "for fun" and since writing tests isn't fun I don't. Code without tests is not production ready so I don't recommend using most of my projects in production.
+
+If ever a project takes off, the first thing I would do is write tests.

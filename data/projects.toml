@@ -1,0 +1,73 @@
+
+[[project]]
+title = "StL Devs"
+link = "https://stldevs.com"
+image = "/images/stldevs.png"
+text = "This is a site for discovering what open source work developers are doing in the Greater St. Louis region by harvesting public information from Github."
+
+[[project.links]]
+href="https://stldevs.com"
+name="Visit"
+
+[[project.links]]
+href="http://github.com/jakecoffman/stldevs"
+name="Source"
+
+[[project]]
+title="Gorunner"
+link = "http://github.com/jakecoffman/gorunner"
+image="/images/gorunner.png"
+text="I used to be obsessed with rewriting Jenkins to be better. This was my attempt using Go, AngularJS on the frontend."
+
+[[project.links]]
+href="http://github.com/jakecoffman/gorunner"
+name="Source"
+
+[[project]]
+title="Spyfall"
+link = "http://www.jakecoffman.com/fyspall"
+image="/images/spyfall.png"
+text="A game powered by websockets! Polymer and Go."
+
+[[project.links]]
+href="http://www.jakecoffman.com/fyspall"
+name="Play"
+
+[[project.links]]
+href="http://github.com/jakecoffman/fyspall"
+name="Source"
+
+[[project]]
+title="Summit Landscape Services"
+link = "http://stlsummit.com"
+image="/images/summit.png"
+text="A simple one-page marketing site for my friend's lawncare service. Hire him!"
+
+[[project.links]]
+href="http://stlsummit.com"
+name="View"
+
+[[project]]
+title="Tank Game"
+link = "https://github.com/jakecoffman/tanks-unity/releases"
+image="/images/tanks.png"
+text="A multi-player game I am making in C# with Unity. Completely playable right now, go get it!"
+
+[[project.links]]
+href="https://github.com/jakecoffman/tanks-unity/releases"
+name="Download"
+
+[[project]]
+title="Arduino Security System"
+link = "http://youtu.be/lfOxgK1-5HM"
+image="/images/arduino.png"
+text="One of my first open source contributions, an Arduino emailed me when my door opened. Written in C."
+
+[[project.links]]
+href="http://youtu.be/lfOxgK1-5HM"
+name="Watch"
+
+[[project.links]]
+href="https://github.com/jakecoffman/arduino-security-system"
+name="Source"
+

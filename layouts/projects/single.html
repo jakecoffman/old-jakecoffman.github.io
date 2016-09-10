@@ -1,0 +1,99 @@
+{{ partial "head" . }}
+
+{{ if (eq (trim .Site.Params.provider " " | lower) "github") | and (isset .Site.Params "repo_url") }}
+{{ $repo_id := replace .Site.Params.repo_url "https://github.com/" ""}}
+{{ .Scratch.Set "repo_id" $repo_id }}
+{{ end }}
+
+<div class="backdrop">
+  <div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+  {{ partial "header" . }}
+  <style>
+    .pproject {
+      display: flex;
+      flex-direction: row;
+      padding-top: 20px;
+      font-size: 16px;
+    }
+    @media (max-width: 600px) {
+      .pproject {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .pproject img {
+      box-shadow: 0 0 5px #888888;
+      border-radius: 200px;
+      max-width: 300px;
+    }
+    .pproject > a {
+      color: white !important;
+      text-decoration: none !important;
+    }
+  </style>
+</header>
+
+<main class="main">
+  <div class="drawer">
+    {{ partial "drawer" . }}
+  </div>
+
+  <article class="article">
+    <div class="wrapper">
+      <h1>{{ .Title }} {{ if .IsDraft }} (Draft){{ end }}</h1>
+
+      {{.Content}}
+
+      {{ range $.Site.Data.projects.project }}
+      <h2>{{.title}}</h2>
+
+      <article class="pproject">
+        <a href="{{.link}}">
+          <img src="{{.image}}"/>
+        </a>
+        <div style="margin-left: 20px">
+          <p>
+            {{.text}}
+          </p>
+          <ul class="links">
+            {{ range .links }}
+            <li>
+              <a href="{{.href}}" target="_blank">
+                {{ if .icon }}<i class="icon {{.icon}}"></i>{{end}} {{.name}}
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </article>
+
+      {{end}}
+
+      <aside class="copyright" role="note">
+      </aside>
+
+      <footer class="footer">
+        {{ partial "footer" . }}
+      </footer>
+    </div>
+  </article>
+
+  <div class="results" role="status" aria-live="polite">
+    <div class="scrollable">
+      <div class="wrapper">
+        <div class="meta"></div>
+        <div class="list"></div>
+      </div>
+    </div>
+  </div>
+</main>
+
+{{ partial "footer_js" . }}
