@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Qas on Jake Coffman</title>
-    <link>http://jakecoffman.com/qa/</link>
+    <link>http://www.jakecoffman.com/qa/</link>
     <description>Recent content in Qas on Jake Coffman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://jakecoffman.com/qa/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.jakecoffman.com/qa/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Q &amp; A</title>
-      <link>http://jakecoffman.com/qa/</link>
+      <link>http://www.jakecoffman.com/qa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jakecoffman.com/qa/</guid>
+      <guid>http://www.jakecoffman.com/qa/</guid>
       <description>
 
 &lt;h3 id=&#34;what-are-your-general-thoughts-about-programming&#34;&gt;What are your general thoughts about programming?&lt;/h3&gt;

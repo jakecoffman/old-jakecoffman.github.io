@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jake Coffman</title>
-    <link>http://jakecoffman.com/</link>
+    <link>http://www.jakecoffman.com/</link>
     <description>Recent content on Jake Coffman</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://jakecoffman.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.jakecoffman.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Introduction</title>
-      <link>http://jakecoffman.com/</link>
+      <link>http://www.jakecoffman.com/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jakecoffman.com/</guid>
+      <guid>http://www.jakecoffman.com/</guid>
       <description>
 
 &lt;h2 id=&#34;hello-world&#34;&gt;Hello world!&lt;/h2&gt;
@@ -48,20 +48,20 @@ others.&lt;/p&gt;
     
     <item>
       <title>Personal Projects</title>
-      <link>http://jakecoffman.com/projects/</link>
+      <link>http://www.jakecoffman.com/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jakecoffman.com/projects/</guid>
+      <guid>http://www.jakecoffman.com/projects/</guid>
       <description>&lt;p&gt;There&amp;rsquo;s always more over at my Github! &lt;a href=&#34;https://github.com/jakecoffman&#34;&gt;https://github.com/jakecoffman&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Q &amp; A</title>
-      <link>http://jakecoffman.com/qa/</link>
+      <link>http://www.jakecoffman.com/qa/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://jakecoffman.com/qa/</guid>
+      <guid>http://www.jakecoffman.com/qa/</guid>
       <description>
 
 &lt;h3 id=&#34;what-are-your-general-thoughts-about-programming&#34;&gt;What are your general thoughts about programming?&lt;/h3&gt;
