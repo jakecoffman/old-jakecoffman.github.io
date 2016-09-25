@@ -17,3 +17,7 @@ p {
 .wrapper > ul {
     font-size: 18px;
 }
+
+.banner > .name {
+    font-size: 14px !important;
+}
