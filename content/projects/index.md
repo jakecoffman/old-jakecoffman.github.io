@@ -1,5 +1,5 @@
 ---
-title: Personal Projects
+title: Projects
 weight: 0
 type: projects
 ---
