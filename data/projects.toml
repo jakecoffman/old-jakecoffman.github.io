@@ -27,7 +27,7 @@ name="Source"
 title="Spyfall"
 link = "http://www.jakecoffman.com/fyspall"
 image="/images/spyfall.png"
-text="A game powered by websockets! Polymer and Go."
+text="A multiplayer game powered by websockets! Polymer and Go."
 
 [[project.links]]
 href="http://www.jakecoffman.com/fyspall"
