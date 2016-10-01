@@ -71,3 +71,16 @@ name="Watch"
 href="https://github.com/jakecoffman/arduino-security-system"
 name="Source"
 
+[[project]]
+title="Set Game"
+link="https://jake.mynetgear.com/set-game"
+image="/images/setgame.png"
+text="Play Set in your browser! Uses websockets because I plan on making this multiplayer. A good example of styling SVG with CSS"
+
+[[project.links]]
+href="https://jake.mynetgear.com/set-game"
+name="Play"
+
+[[project.links]]
+href="https://github.com/jakecoffman/set-game"
+name="Source"
