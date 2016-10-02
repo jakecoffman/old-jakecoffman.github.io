@@ -3,7 +3,8 @@
 title = "StL Devs"
 link = "https://stldevs.com"
 image = "/images/stldevs.png"
-text = "This is a site for discovering what open source work developers are doing in the Greater St. Louis region by harvesting public information from Github."
+text = """This is a site for discovering what open source work developers are doing
+in the Greater St. Louis region by harvesting public information from Github."""
 
 [[project.links]]
 href="https://stldevs.com"
@@ -17,7 +18,8 @@ name="Source"
 title="Gorunner"
 link = "http://github.com/jakecoffman/gorunner"
 image="/images/gorunner.png"
-text="I used to be obsessed with rewriting Jenkins to be better. This was my attempt using Go, AngularJS on the frontend."
+text="""I used to be obsessed with making a better Jenkins. This was my attempt
+using Go, AngularJS on the frontend."""
 
 [[project.links]]
 href="http://github.com/jakecoffman/gorunner"
