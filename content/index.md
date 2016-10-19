@@ -26,8 +26,8 @@ to launch virtual machines and connect to them via their browser.
 
 ## Interests
 
-I like game development and have been working on games in my free time. Game development is all about optimization of
-the main loop and as such is really interesting to work on. That and you see your results instantly and can play with
-others. 
+I like game development and have been working on games in my free time. Game development is refreshing
+and completely unlike web development which I have been doing for my day job. Working in 2D and 3D with physics
+engines is a fun challenge.
 
-I also like web development as a way to expose what I do to potentially billions of people. 
+I also like web development as a way to expose what I do to potentially billions of people.
