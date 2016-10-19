@@ -13,7 +13,7 @@ title: Q & A
 
 ### What are your general thoughts about managing developers?
 
-- Typically non-developers can't lead developers effectively.
+- Typically non-developers can't lead developers as effectively as a fellow developer can.
 - Project managers aren't above developers, nor the other way around. We are equals and need to decide what gets done next. You manage customer expectations and I'll get things done.
 - Agile is not for developers, it's for customers and project management.
 - Ideas are worthless. Execution is everything.
