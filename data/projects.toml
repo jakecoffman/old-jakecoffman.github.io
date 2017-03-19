@@ -10,26 +10,39 @@ in the Greater St. Louis region by harvesting public information from Github."""
 href="https://stldevs.com"
 name="Visit"
 
+[[project]]
+title="Tank Game"
+link = "https://github.com/jakecoffman/tanks-unity/releases"
+image="/images/tanks.png"
+text="A multi-player game I am making with Unity. Think Wii Tanks but online, and with mouse and keyboard."
+
+[[project.links]]
+href="https://github.com/jakecoffman/tanks-unity/releases"
+name="Download"
+
 [[project.links]]
 href="http://github.com/jakecoffman/stldevs"
 name="Source"
 
 [[project]]
-title="Gorunner"
-link = "http://github.com/jakecoffman/gorunner"
-image="/images/gorunner.png"
-text="""I used to be obsessed with making a better Jenkins. This was my attempt
-using Go, AngularJS on the frontend."""
+title="Set Game"
+link="https://jake.mynetgear.com/set-game"
+image="/images/setgame.png"
+text="Unauthorized multiplayer web based version of Set Game"
 
 [[project.links]]
-href="http://github.com/jakecoffman/gorunner"
+href="https://jake.mynetgear.com/set-game"
+name="Play"
+
+[[project.links]]
+href="https://github.com/jakecoffman/set-game"
 name="Source"
 
 [[project]]
 title="Spyfall"
 link = "http://www.jakecoffman.com/fyspall"
 image="/images/spyfall.png"
-text="A multiplayer game powered by websockets! Polymer and Go."
+text="A multiplayer game powered by websockets."
 
 [[project.links]]
 href="http://www.jakecoffman.com/fyspall"
@@ -50,20 +63,10 @@ href="http://stlsummit.com"
 name="View"
 
 [[project]]
-title="Tank Game"
-link = "https://github.com/jakecoffman/tanks-unity/releases"
-image="/images/tanks.png"
-text="A multi-player game I am making in C# with Unity. Completely playable right now, go get it!"
-
-[[project.links]]
-href="https://github.com/jakecoffman/tanks-unity/releases"
-name="Download"
-
-[[project]]
 title="Arduino Security System"
 link = "http://youtu.be/lfOxgK1-5HM"
 image="/images/arduino.png"
-text="One of my first open source contributions, an Arduino emailed me when my door opened. Written in C."
+text="One of my first open source contributions, an Arduino emailed me when my door opened"
 
 [[project.links]]
 href="http://youtu.be/lfOxgK1-5HM"
@@ -74,15 +77,27 @@ href="https://github.com/jakecoffman/arduino-security-system"
 name="Source"
 
 [[project]]
-title="Set Game"
-link="https://jake.mynetgear.com/set-game"
-image="/images/setgame.png"
-text="Play Set in your browser! Uses websockets because I plan on making this multiplayer. A good example of styling SVG with CSS"
+title="Gorunner"
+link = "http://github.com/jakecoffman/gorunner"
+image="/images/gorunner.png"
+text="""I used to be obsessed with making a better Jenkins. This was an early attempt
+using Go, with AngularJS on the frontend. This is nowhere near done so I don't suggest you use it."""
 
 [[project.links]]
-href="https://jake.mynetgear.com/set-game"
-name="Play"
-
-[[project.links]]
-href="https://github.com/jakecoffman/set-game"
+href="http://github.com/jakecoffman/gorunner"
 name="Source"
+
+[[project]]
+title="Video Tutorials"
+link = "https://www.youtube.com/user/calicoJake/playlists"
+image="/images/tutorials.png"
+text="""A long time ago I made programming video tutorials. It was a little experiment
+to see if I could make money off of it. Turns out no, but it was fun and I seemed to help a lot of people."""
+
+[[project.links]]
+href="https://www.youtube.com/playlist?list=PL0DA14EB3618A3507"
+name="Flask Tutorial"
+
+[[project.links]]
+href="https://www.youtube.com/playlist?list=PLXbwrYvH4U89KwOnk79AA8j-s2nmDbWDk"
+name="Go/Angular Tutorial"
