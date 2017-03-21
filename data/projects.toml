@@ -26,12 +26,12 @@ name="Source"
 
 [[project]]
 title="Set Game"
-link="https://jake.mynetgear.com/set-game"
+link="https://set.jakecoffman.com"
 image="/images/setgame.png"
 text="Unauthorized multiplayer web based version of Set Game"
 
 [[project.links]]
-href="https://jake.mynetgear.com/set-game"
+href="https://set.jakecoffman.com"
 name="Play"
 
 [[project.links]]
