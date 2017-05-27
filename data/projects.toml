@@ -25,6 +25,17 @@ href="http://github.com/jakecoffman/stldevs"
 name="Source"
 
 [[project]]
+title = "Trusted Friend"
+link = "https://play.google.com/store/apps/details?id=com.jakecoffman.trustedfriend"
+image = "/images/trustedfriend.png"
+text = """Trusted Friend is an Android App that allows you and your closest friends to request
+eachother's locations. You are notified when your location is requested, so it's less creepy."""
+
+[[project.links]]
+href="https://play.google.com/store/apps/details?id=com.jakecoffman.trustedfriend"
+name="Google Play"
+
+[[project]]
 title="Set Game"
 link="https://set.jakecoffman.com"
 image="/images/setgame.png"
