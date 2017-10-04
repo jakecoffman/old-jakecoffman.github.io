@@ -36,6 +36,16 @@ href="https://play.google.com/store/apps/details?id=com.jakecoffman.trustedfrien
 name="Google Play"
 
 [[project]]
+title = "Chipmunk2D in Go"
+link = "https://github.com/jakecoffman/cp"
+image = "/images/cp.gif"
+text = """Go port of the excellent Chipmunk2D, originally in C."""
+
+[[project.links]]
+href="https://github.com/jakecoffman/cp"
+name="Source"
+
+[[project]]
 title="Set Game"
 link="https://set.jakecoffman.com"
 image="/images/setgame.png"
@@ -53,7 +63,7 @@ name="Source"
 title="Spyfall"
 link = "http://www.jakecoffman.com/fyspall"
 image="/images/spyfall.png"
-text="A multiplayer game powered by websockets."
+text="Unauthorized multiplayer web based version of Spyfall"
 
 [[project.links]]
 href="http://www.jakecoffman.com/fyspall"
@@ -65,12 +75,12 @@ name="Source"
 
 [[project]]
 title="Summit Landscape Services"
-link = "http://stlsummit.com"
+link = "http://stlsummit.github.io"
 image="/images/summit.png"
 text="A simple one-page marketing site for my friend's lawncare service. Hire him!"
 
 [[project.links]]
-href="http://stlsummit.com"
+href="http://stlsummit.github.io"
 name="View"
 
 [[project]]
