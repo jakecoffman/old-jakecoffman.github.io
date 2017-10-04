@@ -6,10 +6,10 @@ Production: http://jakecoffman.com
 Setup:
 
 ```
-git clone -b hugo git@github.com:jakecoffman/jakecoffman.github.io.git
+git clone -b hugo https://github.com/jakecoffman/jakecoffman.github.io.git
 mkdir -p jakecoffman.github.io/public
 cd jakecoffman.github.io/public
-git clone git@github.com:jakecoffman/jakecoffman.github.io.git
+git clone https://github.com/jakecoffman/jakecoffman.github.io.git .
 ```
 
 Run `hugo` to generate the site, it will overwrite the files in `public`.
