@@ -60,17 +60,17 @@ href="https://github.com/jakecoffman/set-game"
 name="Source"
 
 [[project]]
-title="Spyfall"
-link = "http://www.jakecoffman.com/fyspall"
-image="/images/spyfall.png"
-text="Unauthorized multiplayer web based version of Spyfall"
+title="Resistance"
+link = "https://resistance.jakecoffman.com"
+image="/images/resistance.png"
+text="Unauthorized multiplayer web based version of The Resistance"
 
 [[project.links]]
-href="http://www.jakecoffman.com/fyspall"
+href="https://resistance.jakecoffman.com"
 name="Play"
 
 [[project.links]]
-href="http://github.com/jakecoffman/fyspall"
+href="http://github.com/jakecoffman/resistance"
 name="Source"
 
 [[project]]
