@@ -25,7 +25,7 @@ canonifyurls = true
 	highlight_css  = ""
 
 	[params.palette]
-    	primary = "brown"
+    	primary = "green"
     	accent  = "orange"
 
     [params.font]
