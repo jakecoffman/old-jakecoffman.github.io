@@ -3,6 +3,7 @@
 title = "StL Devs"
 link = "https://stldevs.com"
 image = "/images/stldevs.png"
+tags = ["Data Warehousing","Go","Polymer","SQL"]
 text = """This is a site for discovering what open source work developers are doing
 in the Greater St. Louis region by harvesting public information from Github."""
 
@@ -14,7 +15,8 @@ name="Visit"
 title="Tank Game"
 link = "https://github.com/jakecoffman/tanks-unity/releases"
 image="/images/tanks.png"
-text="A multi-player game I am making with Unity. Think Wii Tanks but online, and with mouse and keyboard."
+tags=["Games","C#"]
+text="A multi-player game created with Unity. Think Wii Tanks but online, and with mouse and keyboard."
 
 [[project.links]]
 href="https://github.com/jakecoffman/tanks-unity/releases"
@@ -28,8 +30,9 @@ name="Source"
 title = "Trusted Friend"
 link = "https://play.google.com/store/apps/details?id=com.jakecoffman.trustedfriend"
 image = "/images/trustedfriend.png"
+tags=["Android","Java","Go","gRPC"]
 text = """Trusted Friend is an Android App that allows you and your closest friends to request
-eachother's locations. You are notified when your location is requested, so it's less creepy."""
+each other's locations. You are notified when your location is requested, so it's not creepy."""
 
 [[project.links]]
 href="https://play.google.com/store/apps/details?id=com.jakecoffman.trustedfriend"
@@ -39,6 +42,7 @@ name="Google Play"
 title = "Chipmunk2D in Go"
 link = "https://github.com/jakecoffman/cp"
 image = "/images/cp.gif"
+tags=["Games","Go"]
 text = """Go port of the excellent Chipmunk2D, originally in C."""
 
 [[project.links]]
@@ -49,7 +53,8 @@ name="Source"
 title="Set Game"
 link="https://set.jakecoffman.com"
 image="/images/setgame.png"
-text="Unauthorized multiplayer web based version of Set Game"
+tags=["Games","Go","JavaScript","Vuejs"]
+text="Multiplayer web-based version of the Set card game."
 
 [[project.links]]
 href="https://set.jakecoffman.com"
@@ -63,7 +68,8 @@ name="Source"
 title="Resistance"
 link = "https://resistance.jakecoffman.com"
 image="/images/resistance.png"
-text="Unauthorized multiplayer web based version of The Resistance"
+tags=["Games","Go","JavaScript","Vuejs"]
+text="Multiplayer web-based version of The Resistance."
 
 [[project.links]]
 href="https://resistance.jakecoffman.com"
@@ -74,19 +80,10 @@ href="http://github.com/jakecoffman/resistance"
 name="Source"
 
 [[project]]
-title="Summit Landscape Services"
-link = "http://stlsummit.github.io"
-image="/images/summit.png"
-text="A simple one-page marketing site for my friend's lawncare service. Hire him!"
-
-[[project.links]]
-href="http://stlsummit.github.io"
-name="View"
-
-[[project]]
 title="Arduino Security System"
 link = "http://youtu.be/lfOxgK1-5HM"
 image="/images/arduino.png"
+tags=["C","Arduino","Embedded"]
 text="One of my first open source contributions, an Arduino emailed me when my door opened"
 
 [[project.links]]
@@ -101,8 +98,9 @@ name="Source"
 title="Gorunner"
 link = "http://github.com/jakecoffman/gorunner"
 image="/images/gorunner.png"
+tags=["Go"]
 text="""I used to be obsessed with making a better Jenkins. This was an early attempt
-using Go, with AngularJS on the frontend. This is nowhere near done so I don't suggest you use it."""
+using Go, with AngularJS on the frontend."""
 
 [[project.links]]
 href="http://github.com/jakecoffman/gorunner"
@@ -112,6 +110,7 @@ name="Source"
 title="Video Tutorials"
 link = "https://www.youtube.com/user/calicoJake/playlists"
 image="/images/tutorials.png"
+tags=["Teaching"]
 text="""A long time ago I made programming video tutorials. It was a little experiment
 to see if I could make money off of it. Turns out no, but it was fun and I seemed to help a lot of people."""
 

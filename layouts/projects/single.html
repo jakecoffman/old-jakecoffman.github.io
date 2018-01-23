@@ -60,6 +60,9 @@
           <img src="{{.image}}"/>
         </a>
         <div style="margin-left: 20px">
+          {{ range .tags}}
+          <span style="background: #2f2eff; color: white; border-radius: 5px; padding: 5px;">{{.}}</span>
+          {{ end }}
           <p>
             {{.text}}
           </p>
