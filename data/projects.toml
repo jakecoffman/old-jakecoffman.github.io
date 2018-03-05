@@ -1,6 +1,6 @@
 
 [[project]]
-title = "StL Devs"
+title = "STL Devs"
 link = "https://stldevs.com"
 image = "/images/stldevs.png"
 tags = ["Data Warehousing","Go","Polymer","SQL"]
@@ -23,7 +23,22 @@ href="https://github.com/jakecoffman/tanks-unity/releases"
 name="Download"
 
 [[project.links]]
-href="http://github.com/jakecoffman/stldevs"
+href="http://github.com/jakecoffman/tanks-unity"
+name="Source"
+
+[[project]]
+title="Tanklets"
+link = "https://github.com/jakecoffman/tanklets/releases"
+image="/images/tanklets.png"
+tags=["Games","Go"]
+text="Same game as Tank Game but written from scratch in Go. I used no game engine, had to learn OpenGL and ported Chipmunk2D for this project."
+
+[[project.links]]
+href="https://github.com/jakecoffman/tanklets/releases"
+name="Download"
+
+[[project.links]]
+href="http://github.com/jakecoffman/tanklets"
 name="Source"
 
 [[project]]
