@@ -42,18 +42,6 @@ href="http://github.com/jakecoffman/tanklets"
 name="Source"
 
 [[project]]
-title = "Trusted Friend"
-link = "https://play.google.com/store/apps/details?id=com.jakecoffman.trustedfriend"
-image = "/images/trustedfriend.png"
-tags=["Android","Java","Go","gRPC"]
-text = """Trusted Friend is an Android App that allows you and your closest friends to request
-each other's locations. You are notified when your location is requested, so it's not creepy."""
-
-[[project.links]]
-href="https://play.google.com/store/apps/details?id=com.jakecoffman.trustedfriend"
-name="Google Play"
-
-[[project]]
 title = "Chipmunk2D in Go"
 link = "https://github.com/jakecoffman/cp"
 image = "/images/cp.gif"
@@ -92,6 +80,29 @@ name="Play"
 
 [[project.links]]
 href="http://github.com/jakecoffman/resistance"
+name="Source"
+
+[[project]]
+title = "Trusted Friend"
+link = "https://play.google.com/store/apps/details?id=com.jakecoffman.trustedfriend"
+image = "/images/trustedfriend.png"
+tags=["Android","Java","Go","gRPC"]
+text = """Trusted Friend is an Android App that allows you and your closest friends to request
+each other's locations. You are notified when your location is requested, so it's not creepy."""
+
+[[project.links]]
+href="http://github.com/jakecoffman/trusted-friends"
+name="Source"
+
+[[project]]
+title = "camcontrol"
+link = "http://github.com/jakecoffman/camcontrol"
+image = "/images/camcontrol.png"
+tags=["C++","Qt","VLC"]
+text = """camcontrol is a Qt app with embedded VLC player to open and control multiple Amcrest cameras at once"""
+
+[[project.links]]
+href="http://github.com/jakecoffman/camcontrol"
 name="Source"
 
 [[project]]
